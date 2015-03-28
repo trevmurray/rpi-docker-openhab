@@ -1,5 +1,5 @@
 # DOCKER-VERSION 1.0.0
-FROM tmurray/rpi-java8-base
+FROM trevmurray/rpi-raspbian-java8
 
 # install required packages
 RUN apt-get update
