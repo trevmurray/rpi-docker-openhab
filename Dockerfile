@@ -20,5 +20,4 @@ RUN cd /opt/openhab; chmod +x start.sh
 
 WORKDIR /opt/openhab
 
-#CMD [ "/bin/sh", "-c", "/opt/openhab/start.sh" ]
 CMD ./start.sh
